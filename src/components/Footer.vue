@@ -56,7 +56,7 @@
 
   <div id="social-bar">
 
-    <div class="container">
+    <div class="container space">
       <a href="#" id="newsletter-cta">SIGN-UP NOW!</a>
 
       <div id="social-links">
@@ -93,7 +93,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  display: flex;
 }
 
 #social-bar{
@@ -114,6 +113,12 @@ export default {
 #newsletter-cta{
   padding: 15px;
   border: 1px solid #0282f9;
+  font-weight: bold;
+}
+
+.space{
+  display: flex;
+  justify-content: space-between;
 }
 
 p{

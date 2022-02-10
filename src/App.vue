@@ -48,7 +48,7 @@ export default {
 .container{
   display: flex;
   // justify-content: center;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 
 

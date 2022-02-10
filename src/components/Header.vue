@@ -1,7 +1,7 @@
 <template>
 
   <div id="row">
-    <div class="container">
+    <div class="container space">
       <div class="logo">
         <img src="../assets/dc-logo.png" alt="">
       </div>
@@ -47,6 +47,11 @@ export default {
   justify-content: center;
 }
 
+.space{
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo{
 width: 30%;
 align-items: center;
@@ -69,8 +74,8 @@ li{
   padding: 0 20px;
   list-style-type: none;
   text-transform: uppercase;
+  font-size: 13px;
 font-weight: bold;
-font-size: 0.8rem;
 cursor: pointer;
 }
 

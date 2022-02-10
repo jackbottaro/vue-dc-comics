@@ -24,6 +24,8 @@ export default {
 
 div{
   height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 h2{

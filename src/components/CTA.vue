@@ -51,6 +51,8 @@ ul{
 
   align-items: center;
   line-height: 120px;
+  display: flex;
+  justify-content: center;
   
 }
 
