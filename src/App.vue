@@ -33,13 +33,24 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 #app {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+}
+.container{
+  display: flex;
+  // justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+
 
 }
 </style>

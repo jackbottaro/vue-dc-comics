@@ -125,7 +125,7 @@ p{
 
 h3{
   text-transform: uppercase;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 a{
@@ -140,6 +140,10 @@ a{
 
 ul{
   padding: 20px;
+}
+
+li{
+  padding: 3px 0;
 }
 
 img {

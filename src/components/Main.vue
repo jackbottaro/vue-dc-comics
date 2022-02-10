@@ -1,8 +1,11 @@
 <template>
 <div>
-  <h2>
-    --> content goes here 
-  </h2>
+  <div class="container">
+    <h2>
+      --> content goes here 
+    </h2>
+  </div>
+
 </div>
  
 </template>
@@ -16,11 +19,16 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
-.container{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+<style scoped lang="scss">
+
+
+div{
+  height: 100px;
 }
+
+h2{
+  color: white;
+}
+
 
 </style>

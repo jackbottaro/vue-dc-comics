@@ -44,6 +44,7 @@ export default {
   height: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .logo{
