@@ -1,7 +1,7 @@
 <template>
 <div id="row">
 <div class="logo">
-  <img src="src/assets/dc-logo.png" alt="">
+  <img src="../assets/dc-logo.png" alt="">
   <h1>ciao</h1>
 </div>
 <div class="nav">
