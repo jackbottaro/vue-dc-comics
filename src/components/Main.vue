@@ -16,13 +16,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-div{
-  padding: 80px;
-}
-
-h2{
-  color: white;
+<style lang="scss">
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 </style>

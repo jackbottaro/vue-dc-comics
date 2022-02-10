@@ -1,25 +1,30 @@
 <template>
-<div id="row">
-<div class="logo">
-  <img src="../assets/dc-logo.png" alt="">
-  <h1>ciao</h1>
-</div>
-<div class="nav">
-  <ul>
-    <li>characters</li>
-    <li class="active">comics</li>
-    <li>movies</li>
-    <li>tv</li>
-    <li>games</li>
-    <li>collectibles</li>
-    <li>videos</li>
-    <li>fan</li>
-    <li>news</li>
-    <li>shop</li>
-  </ul>
-</div>
 
-</div>
+  <div id="row">
+    <div class="container">
+      <div class="logo">
+        <img src="../assets/dc-logo.png" alt="">
+      </div>
+      <div class="nav">
+        <ul>
+          <li>characters</li>
+          <li class="active">comics</li>
+          <li>movies</li>
+          <li>tv</li>
+          <li>games</li>
+          <li>collectibles</li>
+          <li>videos</li>
+          <li>fan</li>
+          <li>news</li>
+          <li>shop</li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+
+
  
 </template>
 
@@ -43,6 +48,9 @@ export default {
 
 .logo{
 width: 30%;
+align-items: center;
+    display: flex;
+
 }
 
 .nav{
@@ -62,10 +70,16 @@ li{
   text-transform: uppercase;
 font-weight: bold;
 font-size: 0.8rem;
+cursor: pointer;
 }
 
 .active{
   color: #0282f9;
+}
+
+img{
+  height: 70px;
+
 }
 
 </style>
