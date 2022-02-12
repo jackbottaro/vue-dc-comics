@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Spotlight />
     <Main />
     <CTA />
     <Footer />
@@ -13,6 +14,8 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import CTA from "./components/CTA.vue";
 import Footer from "./components/Footer.vue";
+import Spotlight from "./components/Spotlight.vue";
+
 
 
 
@@ -24,6 +27,7 @@ export default {
   Main,
   CTA,
   Footer,
+  Spotlight,
   },
 };
 </script>
